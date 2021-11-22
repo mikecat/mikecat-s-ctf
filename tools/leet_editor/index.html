@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"> <!-- UTF-8で書いているよ -->
+<title>leet editor</title>
+<script src="leet_editor.js"></script>
+<style>
+.editor_char_select {
+	display: inline-block;
+	vertical-align: text-top;
+	margin-right: 0.5em;
+}
+.editor_char {
+	display: inline-block;
+	margin-top: 0.3em;
+	padding: 0.2em 0.3em;
+	cursor: pointer;
+}
+</style>
+</head>
+<body>
+<h1>leet editor</h1>
+<h2>editor</h2>
+<p id="length_display">length: 0</p>
+<p><input id="main_input" type="text" size="100" style="width: 100%; font-family: monospace;"></p>
+<p id="editor" style="font-family: monospace;"></p>
+
+<h2>conversion table</h2>
+<p><textarea id="conversion_table" rows="30" cols="20">aA4
+bB8
+cC
+dD
+eE3
+fF
+gG6
+hH
+iIlL1
+jJ
+kK
+mM
+nN
+oO0
+pP
+qQ9
+rR
+sS5
+tT7
+uU
+vV
+wW
+xX
+yY
+zZ2</textarea></p>
+</body>
+</html>
